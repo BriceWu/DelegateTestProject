@@ -17,6 +17,7 @@ namespace DelegateTestProject
                 new LambdaDelgate(),
                 new FuncDelgate()
             };
+            //逐个输出
             foreach(var hander in handers)
             {
                 var result = hander.DelegatFunction(10);
